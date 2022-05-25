@@ -1,0 +1,1 @@
+# Repositório destinado a exercícios com JavaScript
