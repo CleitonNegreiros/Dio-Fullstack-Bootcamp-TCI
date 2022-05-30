@@ -12,7 +12,7 @@ body {
 .header-wrapper {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(45deg, #050404, #2e1c28, #4a1492, #893168);
+    background: linear-gradient(45deg, #052641, #3a14a3, #147f92, #12dac9);
     background-size: 400% 400%;
     display: flex;
     flex-direction: column;
@@ -32,6 +32,18 @@ h2 {
     letter-spacing: 4px;
 }
 
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background-image: url('./foto.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
 .social-media {
     margin-top: 1rem;
     display:flex;
@@ -43,6 +55,7 @@ h2 {
     font-size: 24px;
     padding: 1rem 4rem;
     border: 1px solid #ffffff;
+    border-radius: 5px;
     min-width: 4rem;
     display: flex;
     justify-content: center;
@@ -51,7 +64,7 @@ h2 {
 }
 
 a:hover {
-    color: #2e1c2b;
+    color: #147f92;
     background-color: #ffffff;
 }
 
@@ -153,7 +166,7 @@ a:hover {
 
 .menu-items ul li a {
     margin: 10px 0;
-    color: #2e1c28;
+    color: #147f92;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -164,7 +177,7 @@ a:hover {
 
 #toogle:checked + .checkbox .trace:nth-child(1) {
     transform: rotate(45deg);
-    background-color: #2e1c28;
+    background-color: #147f92;
     top: 47px;
 }
 
@@ -177,7 +190,7 @@ a:hover {
 
 #toogle:checked + .checkbox .trace:nth-child(3) {
     transform: rotate(-45deg);
-    background-color: #2e1c28;
+    background-color: #147f92;
     top: 48px;
 }
 
@@ -227,7 +240,6 @@ a:hover {
     align-items: center;
     filter: grayscale(0.5);
     color: #ffffff;
-    cursor: pointer;
     transition: 0.3s;
 }
 
@@ -298,7 +310,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#2e1c28;
+    background-color:#147f92;
 }
 
 /* RESPONSIVE*/
